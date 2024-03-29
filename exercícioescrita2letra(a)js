@@ -1,0 +1,9 @@
+function somaNumeros(numero1, numero2) {
+    const resultado = numero1 + numero2;
+    return resultado;
+}
+
+const numero1 = 5;
+const numero2 = 7;
+const resultadoSoma = somaNumeros(numero1, numero2);
+console.log("A soma dos números é:", resultadoSoma);
